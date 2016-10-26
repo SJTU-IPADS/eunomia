@@ -1,0 +1,10 @@
+*.o
+ycsb_test
+*.orig
+TODO
+LICENSE
+NEWS
+tags
+*.swp
+*.swo
+cscope.*

@@ -1,0 +1,8 @@
+threads = 1, read_rate = 0.200000, cont_size = 20
+Zipfian Distribution. Theta = 0.990000
+EunomiaTree
+RunBenchmark
+Send Start Signal
+Exe time: 2.923153
+Thread[0] Throughput 1368387.491178 ops/s
+Total Run Time : 2923.214000 ms

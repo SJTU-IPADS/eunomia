@@ -1,0 +1,46 @@
+threads = 20, read_rate = 0.200000, cont_size = 12
+Zipfian Distribution. Theta = 0.990000
+B+Tree
+RunBenchmark
+Send Start Signal
+Exe time: 9.819152
+Thread[11] Op Throughput 203684.391483 ops/s
+Exe time: 9.830583
+Thread[19] Op Throughput 203447.852482 ops/s
+Exe time: 9.854210
+Thread[12] Op Throughput 202959.242801 ops/s
+Exe time: 9.882424
+Thread[2] Op Throughput 202380.509073 ops/s
+Exe time: 9.898804
+Thread[16] Op Throughput 202045.115753 ops/s
+Exe time: 9.911854
+Thread[13] Op Throughput 201779.202962 ops/s
+Exe time: 9.918228
+Thread[17] Op Throughput 201649.931822 ops/s
+Exe time: 9.922275
+Thread[5] Op Throughput 201567.785614 ops/s
+Exe time: 9.923850
+Thread[6] Op Throughput 201535.492778 ops/s
+Exe time: 9.923540
+Thread[18] Op Throughput 201542.090826 ops/s
+Exe time: 9.935177
+Thread[7] Op Throughput 201305.019528 ops/s
+Exe time: 9.946909
+Thread[3] Op Throughput 201068.492735 ops/s
+Exe time: 9.950497
+Thread[4] Op Throughput 200995.789457 ops/s
+Exe time: 9.950538
+Thread[15] Op Throughput 200994.358295 ops/s
+Exe time: 9.952275
+Thread[14] Op Throughput 200959.378635 ops/s
+Exe time: 9.957234
+Thread[9] Op Throughput 200859.395290 ops/s
+Exe time: 9.958440
+Thread[1] Op Throughput 200834.869719 ops/s
+Exe time: 9.959317
+Thread[10] Op Throughput 200817.686594 ops/s
+Exe time: 9.959720
+Thread[8] Op Throughput 200809.259698 ops/s
+Exe time: 9.960617
+Thread[0] Op Throughput 200790.975097 ops/s
+Total Run Time : 9960.637000 ms

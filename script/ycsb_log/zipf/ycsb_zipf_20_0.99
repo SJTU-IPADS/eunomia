@@ -1,0 +1,46 @@
+threads = 20, read_rate = 0.200000, cont_size = 20
+Zipfian Distribution. Theta = 0.990000
+B+Tree
+RunBenchmark
+Send Start Signal
+Exe time: 18.262533
+Thread[2] Throughput 219027.995733 ops/s
+Exe time: 18.292507
+Thread[9] Throughput 218669.644352 ops/s
+Exe time: 18.296847
+Thread[5] Throughput 218617.612095 ops/s
+Exe time: 18.334948
+Thread[12] Throughput 218162.876710 ops/s
+Exe time: 18.349741
+Thread[14] Throughput 217987.054967 ops/s
+Exe time: 18.349613
+Thread[19] Throughput 217989.175031 ops/s
+Exe time: 18.362911
+Thread[6] Throughput 217830.386478 ops/s
+Exe time: 18.369804
+Thread[16] Throughput 217749.574247 ops/s
+Exe time: 18.374832
+Thread[0] Throughput 217689.391664 ops/s
+Exe time: 18.374674
+Thread[10] Throughput 217691.317952 ops/s
+Exe time: 18.381830
+Thread[15] Throughput 217606.625673 ops/s
+Exe time: 18.384667
+Thread[4] Throughput 217573.318026 ops/s
+Exe time: 18.385057
+Thread[11] Throughput 217568.648278 ops/s
+Exe time: 18.390819
+Thread[1] Throughput 217499.938420 ops/s
+Exe time: 18.408874
+Thread[13] Throughput 217287.325667 ops/s
+Exe time: 18.416012
+Thread[3] Throughput 217203.159946 ops/s
+Exe time: 18.416689
+Thread[8] Throughput 217194.306751 ops/s
+Exe time: 18.416550
+Thread[17] Throughput 217196.760522 ops/s
+Exe time: 18.419036
+Thread[7] Throughput 217166.902763 ops/s
+Exe time: 18.419524
+Thread[18] Throughput 217161.203514 ops/s
+Total Run Time : 18420.178000 ms

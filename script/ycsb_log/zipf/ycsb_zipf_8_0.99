@@ -1,0 +1,22 @@
+threads = 8, read_rate = 0.200000, cont_size = 20
+Zipfian Distribution. Theta = 0.990000
+B+Tree
+RunBenchmark
+Send Start Signal
+Exe time: 20.880720
+Thread[3] Throughput 191565.041818 ops/s
+Exe time: 20.892416
+Thread[6] Throughput 191457.033978 ops/s
+Exe time: 20.940780
+Thread[2] Throughput 191015.138882 ops/s
+Exe time: 20.944466
+Thread[7] Throughput 190981.474534 ops/s
+Exe time: 20.944506
+Thread[5] Throughput 190981.491757 ops/s
+Exe time: 20.945525
+Thread[1] Throughput 190971.675334 ops/s
+Exe time: 20.948876
+Thread[4] Throughput 190941.652430 ops/s
+Exe time: 20.949066
+Thread[0] Throughput 190939.586519 ops/s
+Total Run Time : 20949.599000 ms

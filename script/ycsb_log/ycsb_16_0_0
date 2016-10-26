@@ -1,0 +1,37 @@
+threads = 16, read_rate = 0.000000
+B+Tree
+RunBenchmark
+Send Start Signal
+Exe time: 12.288450
+Thread[9] Op Throughput 40688.614105 ops/s
+Exe time: 12.288504
+Thread[4] Op Throughput 40688.435305 ops/s
+Exe time: 12.288415
+Thread[11] Op Throughput 40688.729995 ops/s
+Exe time: 12.288569
+Thread[0] Op Throughput 40688.220085 ops/s
+Exe time: 12.288444
+Thread[8] Op Throughput 40688.633972 ops/s
+Exe time: 12.288498
+Thread[5] Op Throughput 40688.455172 ops/s
+Exe time: 12.288458
+Thread[10] Op Throughput 40688.587616 ops/s
+Exe time: 12.288530
+Thread[2] Op Throughput 40688.349217 ops/s
+Exe time: 12.288330
+Thread[14] Op Throughput 40689.011444 ops/s
+Exe time: 12.288409
+Thread[12] Op Throughput 40688.749862 ops/s
+Exe time: 12.288545
+Thread[3] Op Throughput 40688.299551 ops/s
+Exe time: 12.288482
+Thread[6] Op Throughput 40688.508149 ops/s
+Exe time: 12.288479
+Thread[7] Op Throughput 40688.518083 ops/s
+Exe time: 12.288608
+Thread[15] Op Throughput 40688.090954 ops/s
+Exe time: 12.288357
+Thread[13] Op Throughput 40688.922042 ops/s
+Exe time: 12.288516
+Thread[1] Op Throughput 40688.395572 ops/s
+Total Run Time : 12289.091000 ms

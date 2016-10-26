@@ -1,0 +1,1 @@
+./run_ycsb.sh [thread_num] [type] [read_rate]

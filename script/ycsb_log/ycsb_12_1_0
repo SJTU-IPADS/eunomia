@@ -1,0 +1,29 @@
+threads = 12, read_rate = 0.000000
+EunomiaTree
+RunBenchmark
+Send Start Signal
+Exe time: 2.706597
+Thread[2] Op Throughput 184733.818888 ops/s
+Exe time: 2.706559
+Thread[8] Op Throughput 184736.412544 ops/s
+Exe time: 2.706589
+Thread[6] Op Throughput 184734.364915 ops/s
+Exe time: 2.706526
+Thread[10] Op Throughput 184738.664990 ops/s
+Exe time: 2.706851
+Thread[4] Op Throughput 184716.484210 ops/s
+Exe time: 2.706962
+Thread[0] Op Throughput 184708.909841 ops/s
+Exe time: 2.706928
+Thread[7] Op Throughput 184711.229852 ops/s
+Exe time: 2.706883
+Thread[11] Op Throughput 184714.300544 ops/s
+Exe time: 2.707044
+Thread[9] Op Throughput 184703.314760 ops/s
+Exe time: 2.707125
+Thread[3] Op Throughput 184697.788244 ops/s
+Exe time: 2.707290
+Thread[1] Op Throughput 184686.531550 ops/s
+Exe time: 2.707263
+Thread[5] Op Throughput 184688.373461 ops/s
+Total Run Time : 2707.384000 ms

@@ -1,0 +1,13 @@
+threads = 4, read_rate = 0.000000
+B+Tree
+RunBenchmark
+Send Start Signal
+Exe time: 5.449323
+Thread[1] Op Throughput 91754.517029 ops/s
+Exe time: 5.449359
+Thread[3] Op Throughput 91753.910873 ops/s
+Exe time: 5.449360
+Thread[0] Op Throughput 91753.894035 ops/s
+Exe time: 5.449352
+Thread[2] Op Throughput 91754.028736 ops/s
+Total Run Time : 5449.437000 ms

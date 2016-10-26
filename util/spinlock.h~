@@ -1,0 +1,75 @@
+#ifndef LEVELDB_SPINLOCK_H
+#define LEVELDB_SPINLOCK_H
+
+#include <stdint.h>
+#include "port/atomic.h"
+
+/* The counter should be initialized to be 0. */
+class SpinLock  {
+
+public:
+	//0: free, 1: busy
+	//occupy an exclusive cache line
+	volatile uint8_t padding1[30];
+	volatile uint16_t lock;
+	volatile uint16_t read_lock;
+	volatile uint16_t write_lock;
+	volatile uint8_t padding2[28];
+public:
+
+	SpinLock() {
+		lock = 0;
+	}
+
+	inline void Lock() {
+		while(1) {
+			if(!xchg16((uint16_t *)&lock, 1)) return;
+
+			while(lock) cpu_relax();
+		}
+	}
+
+	inline void Unlock() {
+		barrier();
+		lock = 0;
+	}
+	
+	inline void read_Lock() {
+		while(1) {
+			if(!xchg16((uint16_t *)&read_lock, 1)) return;
+
+			while(read_lock) cpu_relax();
+		}
+	}
+
+	inline void read_Unlock() {
+		barrier();
+		read_lock = 0;
+	}
+	inline void write_Lock() {
+		while(1) {
+			if(!xchg16((uint16_t *)&write_lock, 1)) return;
+
+			while(read_lock) cpu_relax();
+		}
+	}
+
+	inline void write_Unlock() {
+		barrier();
+		write_lock = 0;
+	}
+	inline uint16_t Trylock() {
+		return xchg16((uint16_t *)&lock, 1);
+	}
+
+	inline uint16_t IsLocked() {
+		return lock;
+	}
+	inline uint16_t IsReadLocked() {
+		return read_lock;
+	}
+	inline uint16_t IsReadLocked() {
+		return read_lock;
+	}
+};
+#endif /* _RWLOCK_H */
